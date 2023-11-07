@@ -38,7 +38,7 @@ function App() {
               <p>Name: {info.name}</p>
               <p>Location: {info.location}</p>
               <p>Father Name: {info.fathername}</p>
-              <button onClick={() => deleteDetail(index)}>Delete</button>
+              <button onClick={() => deleteDetail(index)}>Delete this content</button>
           </div>
         ))}
       </div>
